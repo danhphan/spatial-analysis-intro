@@ -12,10 +12,12 @@ The crime index is calculated for every postcode, similar to [the burglarystatis
 
 The datasets are publicly available from following websites:
 
-[Crime statistics in Vic in postcodes](https://www.crimestatistics.vic.gov.au/crime-statistics/latest-victorian-crime-data/download-data-0)
+- [Crime statistics in Vic in postcodes](https://www.crimestatistics.vic.gov.au/crime-statistics/latest-victorian-crime-data/download-data-0)
 
-[Community profile by postcodes from ABS census](https://datapacks.censusdata.abs.gov.au/datapacks/)
-https://www.racv.com.au/in-your-home/in-your-home/burglary-statistics.html#postCode=3168
+- [Community profile by postcodes from ABS census](https://datapacks.censusdata.abs.gov.au/datapacks/)
+
+- [Shapefiles for all postcodes in Victoria state](https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/1270.0.55.003June%202020?OpenDocument)
+
 
 ## Table of Content
 | <!-- -->                          | <!-- -->                         |
