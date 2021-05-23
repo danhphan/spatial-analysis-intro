@@ -1,11 +1,23 @@
-# spatial-analysis-intro
-An introduction on spatial analysis with python
+# Spatial Analysis Introduction
 
-## We going to explore the crime rate in each Victorian postcode.
+An introduction on spatial analysis with python. 
 
+This project uses a study case to introduce basic geometry operations and fundemental spatial analysis skills for newcomers.
+
+## We going to explore the crime rate in Victora.
+
+The crime index is calculated for every postcode, similar to [the burglarystatistics at racv website](https://www.racv.com.au/in-your-home/in-your-home/burglary-statistics.html#postCode=3168).
+
+### Datasets
+
+The datasets are publicly available from following websites:
+
+[Crime statistics in Vic in postcodes](https://www.crimestatistics.vic.gov.au/crime-statistics/latest-victorian-crime-data/download-data-0)
+
+[Community profile by postcodes from ABS census](https://datapacks.censusdata.abs.gov.au/datapacks/)
 https://www.racv.com.au/in-your-home/in-your-home/burglary-statistics.html#postCode=3168
 
-# Table of Content
+## Table of Content
 | <!-- -->                          | <!-- -->                         |
 | --------------------------------  | -------------------------------- |
 | Geometry with Shapely           | [01_It-starts-with-a-point.ipynb](https://github.com/danhphan/spatial-analysis-intro/blob/main/notebooks/01_It-starts-with-a-point.ipynb) |
@@ -20,7 +32,7 @@ https://www.racv.com.au/in-your-home/in-your-home/burglary-statistics.html#postC
 
 Following this tutorial will require recent installations of:
 
-- Python >= 3.6 (it will probably work on python 2.7 as well, but I didn't test it specifically)
+- Python >= 3.6
 - requests
 - numpy
 - shapely
@@ -37,7 +49,7 @@ Following this tutorial will require recent installations of:
 - mapclassify
 - [Jupyter Notebook](http://jupyter.org)
 
-If you do not yet have these packages installed, we recommend to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
+If you do not yet have these packages installed, it is recommended to use the [conda](http://conda.pydata.org/docs/intro.html) package manager to install all the requirements 
 (you can install [miniconda](http://conda.pydata.org/miniconda.html) or install the (larger) Anaconda
 distribution, found at https://www.anaconda.com/download/).
 
@@ -53,6 +65,6 @@ pip install -r requirements.txt
 ```
 
 
-### Fix the error when read excel files using Pandas
+#### Fix the error when read excel files using Pandas
 !pip install xlrd
 !pip install openpyxl
