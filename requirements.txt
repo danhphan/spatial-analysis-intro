@@ -1,8 +1,14 @@
 requests
 numpy
-pandas
 shapely
 matplotlib
-geopandas
+pandas
+geopandas 
+matplotlib
+rtree
+PySAL
 xlrd
 openpyxl
+folium
+seaborn
+mapclassify
